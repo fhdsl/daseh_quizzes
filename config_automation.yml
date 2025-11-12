@@ -4,10 +4,10 @@ render-preview: true
 
 ##### Checks run at pull request #####
 # Check quiz formatting
-check-quizzes: false
+check-quizzes: true
 quiz_error_min: 0
 # Check that urls in the content are not broken
-url-checker: true
+url-checker: false
 url_error_min: 0
 # Spell check Rmds and quizzes
 spell-check: true

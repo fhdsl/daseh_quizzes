@@ -11,15 +11,15 @@ C) Read in a data file in your computer.
 m) Plot the data.
 
 
-? How do you import a data set into R after downloading it in your computer (select all the correct statements)?
+{choose-answers: 4}
+? Which of the following options will NOT import data into R?
 
-T) Manually by navigating to File -> Import Dataset -> From Text (readr) in the top menu in R studio, and clicking "Update" and "Import".
-T) By using the function `read_csv` from the Tidiverse package and executing the command `dat <- read_csv(
+m) Navigate to File -> Import Dataset -> From Text (readr) in the top menu in R studio, and click "Update" and "Import".
+m) Use the function `read_csv` from the Tidiverse package and execute the command `dat <- read_csv(
   file = "path_to_downloaded_data_file.csv").
-T) By using the built-in function in R, `read.csv` executing the command `dat <- read.csv(
+m) Use the built-in function in R, `read.csv` and execute the command `dat <- read.csv(
   file = "path_to_downloaded_data_file.csv") with appropriate options.
-F) By opening the file in Excel.
-F) By double-clicking in the file after downloading it.
+C) Double-click in the file after downloading it.
 
 {choose-answers: 4}
 ? What does the function `head` do?
@@ -46,12 +46,13 @@ m) In the environment pane.
 m) In the editor pane.
 m) In the help pane.
 
-? Select all correct answers: How do you look for help in R Studio?
+{choose-answers: 4}
+?  Which of the following statements will NOT help you to understand a function  in R?
 
-T) In the help pane.
-T) In the console pane by typing ?name_of_your_function.
-F) In the editor pane
-F) In the environment pane.
+m) The help pane in R Studio.
+m) To type ?name_of_your_function in the console.
+C) To search the name of the function in the editor pane.
+m) To search the name of the function in the internet.
 
 {choose-answers: 4}
 ? What does the function `View` do?

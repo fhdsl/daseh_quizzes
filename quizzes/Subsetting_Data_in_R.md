@@ -13,12 +13,13 @@ C) `slice_sample(mydata, n = 10)`
 o) `select(mydata, n = 10)`
 
 
-? What are the differences between a data frame and a tibble (select all true statements)?
+{choose-answers: 4}
+? Which of the following statements is FALSE?
 
-T) A tibble is a fancier version of a data frame.
-T) Previewing a tibble prints more information than a data frame (e.g dimensions and classes of each column).
-F) The function `tibble(my_data_frame)` access all entries of a dataframe.
-F) Dataframes are more memory efficient.
+m) A tibble is a fancier version of a data frame.
+m) Previewing a tibble prints more information than a data frame (e.g dimensions and classes of each column).
+C) The function `tibble(my_data_frame)` access all entries of a dataframe.
+m) Dataframes are used to store data in tables.
 
 
 
@@ -31,20 +32,36 @@ m) `new_datadf <- datadf %>% select(Address = A, DoB = B)`
 m) `new_datadf <- datadf %>% colnames(Address = A, DoB = B)`
 
 
-? Select all of the following column names that do NOT use standard names?
-T) Number of particles / kg
-F) NumberOfParticlesPerKg
-T) Number_of_particles/kg
-T) Number of particles.kg
-F) Number_of_particles_per_kg
+{choose-answers: 4}
+?  Which of the following column names use standard names?
+m) Number of particles / kg
+C) NumberOfParticlesPerKg
+m) Number_of_particles/kg
+m) Number of particles.kg
 
 
-? How can you rename all your columns at once (select all true)? 
-T) Using the function `rename_with` from the `Tidiverse` package.
-F) Using the function `clear_columns` from the `Metaverse` package.
-T) Using the function `rename` from the `Tidiverse` package and listing all the column names.
-T) Using the function `clean_names` from the `janitor` package.
-F) Using the function `list` from standard R.
+{choose-answers: 4}
+? How can you rename all your columns at once? 
+C) Using the function `rename_with` from the `Tidiverse` package.
+m) Using the function `clear_columns` from the `Metaverse` package.
+m) Using the function `list` from standard R.
+m) Using the function `as.character` from standard R
+
+{choose-answers: 4}
+? How can you rename all your columns at once? 
+
+m) Using the function `clear_columns` from the `Metaverse` package.
+m) Using the function `list` from standard R.
+C) Using the function `rename` from the `Tidiverse` package and listing all the column names.
+m) Using the function `as.character` from standard R
+
+{choose-answers: 4}
+? How can you rename all your columns at once? 
+
+m) Using the function `clear_columns` from the `Metaverse` package.
+C) Using the function `clean_names` from the `janitor` package.
+m) Using the function `list` from standard R.
+m) Using the function `as.character` from standard R
 
 
 {choose-answers: 4}
@@ -101,12 +118,21 @@ C) `dim(mydata)`
 o) `colnames(mydata)`
 
 
-? Select all the statements that create a subset called `mydata2` of a dataframe called `mydata` that contains only rows for which the `city` is `New York`,  the `CO2` levels are less than or equal to 1000, and the columns are numeric?
+{choose-answers: 4}
+? Select the statement that creates a subset called `mydata2` of a dataframe called `mydata` that contains only rows for which the `city` is `New York`,  the `CO2` levels are less than or equal to 1000, and the columns are numeric?
 
-F) `mydata2 <- mydata %>% select(city == "New York" & CO2 <= 1000) %>% filter(where(is.numeric))`
+m) `mydata2 <- mydata %>% select(city == "New York" & CO2 <= 1000) %>% filter(where(is.numeric))`
 T) `mydata2 <- mydata %>% select(where(is.numeric)) %>% filter(city == "New York" & CO2 <= 1000)`
-T) `mydata2 <- mydata %>% filter(city == "New York" & CO2 <= 1000) %>% select(where(is.numeric))`
-F) `mydata2 <- mydata %>% select(where(is.numeric)) %>% filter(city == "New York" | CO2 <= 1000)`
+m) `mydata2 <- mydata %>% filter(city <=1000 & CO2 == "New York") %>% select(where(is.numeric))`
+m) `mydata2 <- mydata %>% select(where(is.numeric)) %>% filter(city == "New York" | CO2 <= 1000)`
+
+{choose-answers: 4}
+? Select the statement that creates a subset called `mydata2` of a dataframe called `mydata` that contains only rows for which the `city` is `New York`,  the `CO2` levels are less than or equal to 1000, and the columns are numeric?
+
+m) `mydata2 <- mydata %>% select(city == "New York" & CO2 <= 1000) %>% filter(where(is.numeric))`
+m) `mydata2 <- mydata %>%  filter(city == "New York" & CO2 <= 1000)`
+C) `mydata2 <- mydata %>% filter(city == "New York" & CO2 <= 1000) %>% select(where(is.numeric))`
+m) `mydata2 <- mydata %>% select(where(is.numeric)) %>% filter(city == "New York" | CO2 <= 1000)`
 
 {choose-answers: 4}
 ? Which of the following statements will add a column called `CO2_per_capita` to a dataframe called `mydata`  that computes the CO2 levels per capita (assume there are columns named `CO2` and `population`)?

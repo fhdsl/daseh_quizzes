@@ -26,9 +26,9 @@ C) `c(favorite, number, 7)`
 
 {choose-answers: 4}
 ? What would be the value of the result of the following lines of code:
-x <- c(1, 2, 3)
-y <- 5
-z <- x + y
+`x <- c(1, 2, 3)`
+`y <- 5`
+`z <- x + y`
 ?
 
 C) `c(6, 7, 8)`

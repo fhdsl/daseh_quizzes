@@ -2,15 +2,14 @@
 
 ## Data Cleaning
 
-
-? Select all the functions that help you find missing data:
-T) `is.na()`
-T) `is.nan()`
-F) `is.numeric()`
-T) `is.infinite()`
-F) `is.character()`
-T) `miss_var_summary()`
-T) `gg_miss_var()`
+{choose-answers: 4}
+? Select the statement that does NOT help you to find missing data:
+o) `is.na()`
+m) `is.nan()`
+C) `is.numeric()`
+o) `is.infinite()`
+m) `miss_var_summary()`
+o) `gg_miss_var()`
 
 ? Select all the statments describing potential issues when dealing with missing data:
 F) Operations in data frames are slower in the presence of `NAs`.

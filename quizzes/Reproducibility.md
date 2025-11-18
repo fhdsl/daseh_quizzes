@@ -44,10 +44,10 @@ T) Because it allows us to reproduce the exact same results if we use the same s
 {choose-answers: 4}
 ? How do you set the the starting state of the random number generator in R?
 
-m) set.rng(any_number_you_want_here)
-C) set.seed(any_number_you_want_here)
-m) rng(any_number_you_want_here)
-m) myseed = any_number_you_want_here
+m) `set.rng(any_number_you_want_here)`
+C) `set.seed(any_number_you_want_here)`
+m) `rng(any_number_you_want_here)`
+m) `myseed = any_number_you_want_here`
 
 
 {/quiz}

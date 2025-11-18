@@ -72,10 +72,10 @@ C) Shows you the current working directory.
 {choose-answers: 4}
 ? Which function do you use to set the working directory in R?
 
-m) getwd()
-m) mvwd()
-m) pwd
-C) setwd()
+m) `getwd()`
+m) `mvwd()`
+m) `pwd`
+C) `setwd()`
 
 {choose-answers: 4}
 ? How do you write code chunks in an Rmd file?

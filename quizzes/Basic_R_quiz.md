@@ -13,16 +13,16 @@ m) `myvar -> 10`
 m) `myvar <- 55`
 
 
-? Select all the statements representing a correct way to combine the strings "favorite" and "number" and the number 7? 
+choose-answers: 4}
+? Select the statement that DOES NOT represent a correct way to combine the strings "favorite" and "number" and the number 7? 
 
-T) `c("favorite", "number", 7)`
-T) `c(7, "favorite", "number")`
-T) `c("number", 7, "favorite")`
-T) `c("number", "favorite", 7)`
-T) `c(7, "number", "favorite")`
-F) `s("favorite", "number", 7)`
-F) `c(favorite, number, 7)`
-F) `favorite number <- 7`
+m) `c("favorite", "number", 7)`
+m) `c(7, "favorite", "number")`
+o) `c("number", 7, "favorite")`
+o) `c("number", "favorite", 7)`
+o) `c(7, "number", "favorite")`
+C) `c(favorite, number, 7)`
+
 
 {choose-answers: 4}
 ? What would be the value of the result of the following lines of code:

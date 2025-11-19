@@ -16,6 +16,7 @@ Dockerfile
 Dockerhub
 dropdown
 enforceability
+Esquisse
 faq
 favicon
 FirstName
@@ -23,6 +24,7 @@ Funder
 fyi
 GDSCN
 Generis
+ggplot
 GH
 Github
 GitHub
@@ -50,14 +52,18 @@ ottrproject
 Pandoc
 png
 pre
+replicable
 reproducibility
 rmarkdown
 RMarkdown
 Savonen
 sexualized
 socio
+summarization
 synched
 tada
+tibble
+tibbles
 UE
 UE5
 underserved

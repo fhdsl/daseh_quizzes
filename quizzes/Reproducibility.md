@@ -3,7 +3,7 @@
 ## Reproducibility quiz
 
 {choose-answers: 4}
-? What does it mean for your work to be reproducibible?
+? What does it mean for your work to be reproducible?
 
 C) It means that another researcher will obtain the same results using the original data, code and methods in their own computer.
 m) It means that you can re-run the code and get the same results in a different R session in the same computer.

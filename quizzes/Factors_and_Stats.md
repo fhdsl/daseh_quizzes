@@ -18,13 +18,13 @@ m) numerical variables
 m) vectors with special properties
 m) colors of the rainbow.
 
-? How can you convert a variable `var` into a factor (select all true statements)?
+{choose-answers: 4}
+? How can you convert a variable `var` into a factor?
 
-F) `as.character(var)`
-F) `as.float(var)`
-T) `factor(var)`
-T) `forcats::as_factor(var)`
-T) `as.factor(var)`
+m) `as.character(var)`
+m) `as.float(var)`
+m) `as.date(var)`
+C) `as.factor(var)`
 
 {choose-answers: 4}
 ?  What is the difference between transforming a variable `var` to a factor with the function `factor` (var1 <- factor(var)) or the function `as_factor` (`var2 <- as_factor(var)`)from the `forcats` package?
@@ -34,11 +34,12 @@ C) Levels using the factor() function will be ordered alphanumerically while lev
 m) Levels using the factor() function cannot be reordered while levels using as_factor() can be reordered.
 m) The factor function allows for arranging and plotting data but the as_factor() function does not.
 
-? What does the `forcats` package allows us to do (not exclusive list, select all the statements that are true)?
-F) Plot categorical data.
-T) Check the proportions of each level for a given factor using the function `fct_count()`.
-T) Reorder a factor based on the values of another variable using the function `fct_order()`.
-F) Run statistical analysis on categorical data.
+{choose-answers: 4}
+?  Select one thing that the `forcats` package allows us to do?
+m) Plot categorical data.
+m) Check the values of a column using the function `check()`.
+C) Reorder a factor based on the values of another variable using the function `fct_order()`.
+m) Run statistical analysis on categorical data.
 
 {choose-answers: 4}
 ? Which of the following statements will adjust the p-values given in a vector named `my_pvals` when testing multiple hypothesis on the same data?

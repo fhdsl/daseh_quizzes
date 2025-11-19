@@ -2,12 +2,12 @@
 
 ## Functions
 
-? How do you write a function that takes a name `X` as an output and prints "X is cool", select all that are true?
+? How do you write a function that takes a name `X` as an output and prints "X is cool"?
 
-F) `function(x) {print("x is cool")}`
-F) `print("x is cool")`
-T) `function(x) {print(paste(x, "is cool", sep=" "))}`
-T) `function(x) {cat(x, " is cool"))}`
+m) `function(x) {print("x is cool")}`
+m) `print("x is cool")`
+C) `function(x) {print(paste(x, "is cool", sep=" "))}`
+m) `function(x) {mutate(x, " is cool"))}`
 
 {choose-answers: 4}
 

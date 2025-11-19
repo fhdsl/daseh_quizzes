@@ -11,14 +11,14 @@ o) `is.infinite()`
 m) `miss_var_summary()`
 o) `gg_miss_var()`
 
-? Select all the statements describing potential issues when dealing with missing data:
-F) Operations in data frames are slower in the presence of `NAs`.
-T) Mathematical operations (e.g. sum, min, max) result in `NA` when an NA is present.
-T) Elemental arithmetic operations (e.g. computing percentages) will have different results depending on the inclusion or exclusion of `NAs`.
-T) Logical evaluations will evaluate an `NA` as a 0.
-T) The filter function will remove all the missing values (unless you add the conditional `is.na()`).
-F) The `NAs` always represent lower than measurable values.
-F) NAs in a data set are always random.
+{choose-answers: 4}
+? The following statements describe potential issues when dealing with missing data. Select the one statement that is not a true issue.
+
+o) Mathematical operations (e.g. sum, min, max) result in `NA` when an NA is present.
+m) Elemental arithmetic operations (e.g. computing percentages) will have different results depending on the inclusion or exclusion of `NAs`.
+m) Logical evaluations will evaluate an `NA` as a 0.
+o) The filter function will remove all the missing values (unless you add the conditional `is.na()`).
+C) NAs in a data set are always random.
 
 {choose-answers: 4}
 ? Assuming you have a dataframe called `mydata` , which of the following statements would replace all the `NA` values with -1 in the column `Emisions`?
@@ -100,12 +100,13 @@ C) `mydata %>% unite(State, zipcode, col = "location")`
 m) `mydata %>% mutate(col1 = State, col2 = zipcode, intol="location")`
 
 
-? Assume you want to create a string named `myfilename` by combining the string `results` and today's date (given by the function `today <- Sys.Date()`) with no space in between. Which of the following statements would do that (select all the true statments)?
+{choose-answers: 4}
+?  Assume you want to create a string named `myfilename` by combining the string `results` and today's date (given by the function `Sys.Date()`) with no space in between. Which of the following statements would do that?
 
-T) `myfilename <- paste(results, Sys.Date(), sep="")`
-T) `myfilename <- paste0(results, Sys.Date())`
-F) `myfilename <- paste(results, Sys.Date(), sep="_")`
-F) `myfilename <- paste0(results, Sys.Date(), sep="_")`
+m) `myfilename <- paste(results, mydate, sep="")`
+C) `myfilename <- paste0(results, Sys.Date())`
+m) `myfilename <- paste(results, Sys.Date(), sep="_")`
+m) `myfilename <- paste0(results, Sys.Date(), sep="_")`
 
 
 {choose-answers: 4}

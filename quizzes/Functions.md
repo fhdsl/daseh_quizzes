@@ -58,7 +58,7 @@ m) `roaster %>% group_by(grade) %>% across(select(ends_with("test"))) %>% summar
 
 {choose-answers: 4}
 
-? Suppose you have a list called `mylist` with 3 different tibbles representing the amount of CO2 levels at  the county, state and national level. Which of the following statements will apply a function returning all the observations above the indoor healthy level of 800 ppm in all tibles at once?
+? Suppose you have a list called `mylist` with 3 different tibbles representing the amount of CO2 levels at  the county, state and national level. Which of the following statements will apply a function returning all the observations above the indoor healthy level of 800 ppm in all tibbles at once?
 
 m) `mylist %>% filter(CO2 > 800)`
 m) `mylist %>% select(CO2) %>% sapply(function(x) x>800)`

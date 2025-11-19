@@ -10,9 +10,13 @@ m) `mydata %>% summarize(total_population = max(population))`
 m) `mydata %>% summarize(total_population = sum(county))`
 
 
-? Which function do you use if you want to save a summary statistic in the original data?
-T) `mutate()`
-F) `summarize()`
+{choose-answers: 4}
+? Which function do you use if you want to save a summary statistic as a new column in the original data?
+
+m) `summarize()`
+m) `filter`
+m) `rename`
+C) `mutate()`
 
 
 {choose-answers: 4}
@@ -56,24 +60,41 @@ m) Using the `date()` function.
 m) Using the `as.integer()` function.
 
 
-? How do you convert a string into a date object (select all that are true)?
-T) Using the function `ymd()` from the package `lubridate`.
-T) Using the function `dmy()` from the package `lubridate`.
-T) Using the function `mdy()` from the package `lubridate`.
-F) Using the function `as.date()` from base R.
+{choose-answers: 4}
+?  How do you convert a string into a date object?
+m) Using the function `mutate_to_date` from `dplyr`.
+C) Using any of functions `ymd()`, `mdy()` or `dmy()` from the package `lubridate`.
+m) Using the function `as.character()` from base R.
+m) Using the function `as.numeric()` from base R.
+
+{choose-answers: 4}
+?  Which of the following types of objects would you use to perform operations in several files at once?
+
+m) tibbles.
+C) lists 
+m) dataframes
+m) character vectors
+
+{choose-answers: 4}
+?  What is an advantage of using lists in R?
+m) Lists can be ordered alphabetically.
+m) Lists look nice.
+C) Lists allow you to hold different types of objects (e.g. strings and numbers).
+m) Lists operate at the bit scale.
 
 
-? What are the advantages of using lists in R (select all that are true?
+{choose-answers: 4}
+?  What is an advantage of using lists in R?
 
-T) Lists allow you to hold different types of objects (e.g. strings and numbers).
-T) Lists allow you to perform operations in several files at once.
-F) All the functions from the dplyr package can be used in lists.
-T) Lists can hold other lists.
+m) Lists are easier to use.
+m) Lists are faster to use.
+m) All the functions from the `dplyr` package can be used in lists.
+C) Lists can hold other lists.
 
-
+{choose-answers: 2}
 ? Where do indexes start in R?
-T) 1
-F) 0
+C) 1
+m) 0
 
 
 {/quiz}

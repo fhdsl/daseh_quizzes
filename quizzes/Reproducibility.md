@@ -27,19 +27,22 @@ m) Repeat the entire analysis in your computer.
 m) Better document your code.
 
 
-? Select all the true statements: why do we recommend using R Markdown for your data science analysis?
+{choose-answers: 4}
+? Select one reason for why do we recommend using R Markdown for your data science analysis?
 
-T) R Markdown allows you to easily document your work so that others (and your future self) can follow and understand it.
-T) R Markdown allows you to update your analysis  and results in an easy way.
-F) R Markdown allows you to put colorful parentheses.
-T) R Markdown creates output that is easily shareable.
-F) R Markdown allows you to create publication-quality figures.
+C) R Markdown allows you to easily document your work so that others (and your future self) can follow and understand it.
+m) R Markdown allows you to put colorful parentheses.
+m) R Markdown creates output that is easily shareable.
+m) R Markdown allows you to create publication-quality figures.
 
 
+{choose-answers: 4}
 ? Why is setting the starting state of the random number generator important? 
 
-F) Because it makes everything look better.
-T) Because it allows us to reproduce the exact same results if we use the same seed in another session.
+m) Because it makes everything look better.
+C) Because it allows you to reproduce the exact same results if we use the same seed in another session.
+m) Because it allows you to choose your favorite number as the seed.
+m) Because it allows you to use the results for other projects.
 
 {choose-answers: 4}
 ? How do you set the the starting state of the random number generator in R?

@@ -20,13 +20,13 @@ m) `function(x, y) {3.14 * x * y}`
 
 
 
-? Select all statements that would create a function named `count_Word` that takes three arguments: a dataframe `dataset`, a column name `col_name`, and a particular string `my_str` and returns the number of the rows in that column that contain that string?
+? Which of the following statements will correctly define a function named `count_Word` that takes three arguments: a dataframe `dataset`, a column name `col_name`, and a string `my_str`. The function `count_Word` will then return the number of the rows in that column that contain that string?
 
-T) `count_Word <- function(dataset, col_name, my_str) {dataset %>% filter(stringr::str_detect({{col_name}}, my_str)) %>% count()}`
-T) `count_Word <- function(dataset, col_name, my_str) {dataset %>% pull({{col_name}}) %>% stringr::str_detect( my_str) %>% sum()}`
-m) `count_Word <- function(dataset, col_name, my_str) {dataset %>% select({{col_name}}) %>% summarize(count())}`
-T) `count_Word <- function(dataset, col_name, my_str) {dataset %>% filter({{col_name}} == my_str) %>% count()}`
-{/quiz}
+m) `count_Word <- function(dataset, col_name, my_str) {dataset %>% filter(stringr::str_detect({{col_name}}, my_str))}`
+m) `count_Word <- function(dataset, col_name, my_str) {dataset %>% pull({{col_name}}) %>% stringr::str_detect( my_str)}`
+m) `count_Word <- function(dataset, col_name, my_str) {dataset %>% summarize(count())}`
+C) `count_Word <- function(dataset, col_name, my_str) {dataset %>% filter({{col_name}} == my_str) %>% count()}`
+
 
 {choose-answers: 4}
 
@@ -87,9 +87,10 @@ C) `function(x) {mean(x)}`
 
 ? Why do you need to use curly braces when defining functions for columns of tibbles?
 
-m) `Because it helps clarify which part is the input and which part is the output.`
-C) `Because it helps R understand that it needs to treat that input as the column of the tibble.`
-m) `Because it looks nicer.`
-m) `Because it makes computations faster.`
+m) Because it helps clarify which part is the input and which part is the output.
+C) Because it helps R understand that it needs to treat that input as the column of the tibble.
+m) Because it looks nicer.
+m) Because it makes computations faster.
 
 
+{/quiz}

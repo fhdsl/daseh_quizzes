@@ -60,10 +60,13 @@ m) `C <- inner_join(A, B, by="ID")`
 m) `C <- left_join(A, B, by="ID")`
 C) `C <- full_join(A, B, by="ID")`
 
+{choose-answers: 4}
 ? Select the correct statement: what does the `anti_join` function do?
 
-T) It shows the rows that appear in one data set but not the other.
-F) It shows the opposite values of a data set.
+C) It shows the rows that appear in one data set but not the other.
+m) It shows the opposite values of a data set.
+m) It shows the intersection of the two data sets.
+m) It shows the union of the two data sets.
 
 {choose-answers: 4}
 ? What does the command `unloadNamespace(mymodule)` do?
@@ -76,9 +79,9 @@ m) restarts the R session.
 {choose-answers: 4}
 ? Which of the following statements is equivalent to `left_join(A, B, by=user_name)`?
 
-m) left_join(A, B)
-m) left_join(B, A, by=user_name)
-C) right_join(B, A, by=user_name)
-m) inner_join(A, B, by=user_name)
+m) `left_join(A, B)`
+m) `left_join(B, A, by=user_name)`
+C) `right_join(B, A, by=user_name)`
+m) `inner_join(A, B, by=user_name)`
 
 {/quiz}

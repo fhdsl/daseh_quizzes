@@ -42,7 +42,7 @@ o) `subplots()`
 C) By adding a `+` at the END of a line.
 o) By adding a `%>%` at the END of a line.
 m) By adding a `+` at the BEGINNING of a line.
-0) By adding all the layers in a vector separated by commas (e.g c(layer1, layer2, layer3)).
-m) y adding all the layers in a parenthesis separated by commas (e.g. (layer1, layer2, layer3)).
+o) By adding all the layers in a vector separated by commas (e.g `c(layer1, layer2, layer3)`).
+m) y adding all the layers in a parenthesis separated by commas (e.g. `(layer1, layer2, layer3)`).
 
 {/quiz}

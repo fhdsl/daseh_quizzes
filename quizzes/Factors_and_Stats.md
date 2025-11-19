@@ -27,7 +27,7 @@ T) `forcats::as_factor(var)`
 T) `as.factor(var)`
 
 {choose-answers: 4}
-?  What is the difference between transforming a variable `var` to a factor with the function `factor` (var1 <- factor(var)) or the function `as_factor` (var2 <- as_factor(var))from the `forcats` package?
+?  What is the difference between transforming a variable `var` to a factor with the function `factor` (var1 <- factor(var)) or the function `as_factor` (`var2 <- as_factor(var)`)from the `forcats` package?
 
 m) The factor() function is faster than as_factor().  
 C) Levels using the factor() function will be ordered alphanumerically while levels using as_factor() will be ordered by first appearance.
@@ -36,8 +36,8 @@ m) The factor function allows for arranging and plotting data but the as_factor(
 
 ? What does the `forcats` package allows us to do (not exclusive list, select all the statements that are true)?
 F) Plot categorical data.
-T) Check the proportions of each level for a given factor using the function fct_count().
-T) Reorder a factor based on the values of another variable using the function fct_order().
+T) Check the proportions of each level for a given factor using the function `fct_count()`.
+T) Reorder a factor based on the values of another variable using the function `fct_order()`.
 F) Run statistical analysis on categorical data.
 
 {choose-answers: 4}
@@ -49,7 +49,7 @@ C) `p.adjust(my_pvals, method="bonferroni")`
 m) `glm(my_pvals, method="bonferroni")`
 
 {choose-answers: 4}
-? Suppose you have measurements of temperature recorded in 50 sites in two different dates and store the results in vectors x1 and x2. Which of the following statements would be  appropriate if we want to use a t-test to test for the difference in means between the two groups?
+? Suppose you have measurements of temperature recorded in 50 sites in two different dates and store the results in vectors `x1` and `x2`. Which of the following statements would be  appropriate if we want to use a t-test to test for the difference in means between the two groups?
 
 C) `t.test(x1, x2, paired = TRUE)`
 m) `t.test(x1, x2)`

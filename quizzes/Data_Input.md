@@ -14,11 +14,9 @@ m) Plot the data.
 {choose-answers: 4}
 ? Which of the following options will NOT import data into R?
 
-m) Navigate to File -> Import Dataset -> From Text (readr) in the top menu in R studio, and click "Update" and "Import".
-m) Use the function `read_csv` from the Tidiverse package and execute the command `dat <- read_csv(
-  file = "path_to_downloaded_data_file.csv").
-m) Use the built-in function in R, `read.csv` and execute the command `dat <- read.csv(
-  file = "path_to_downloaded_data_file.csv") with appropriate options.
+m) Navigate to File -> Import Dataset -> From Text (`readr`) in the top menu in R studio, and click "Update" and "Import".
+m) Use the function `read_csv` from the `Tidiverse` package and execute the command `dat <- read_csv(file = "path_to_downloaded_data_file.csv")`.
+m) Use the built-in function in R, `read.csv` and execute the command `dat <- read.csv(file = "path_to_downloaded_data_file.csv")` with appropriate options.
 C) Double-click in the file after downloading it.
 
 {choose-answers: 4}
@@ -79,7 +77,7 @@ m) `pwd`
 C) `setwd()`
 
 {choose-answers: 4}
-? How do you write code chunks in an Rmd file?
+? How do you write code chunks in an `Rmd` file?
 
 m) You just put the code and R Markdown knows how to interpret it.
 C) You surround your code by ```{r} CODE GOES HERE ```.

@@ -37,7 +37,7 @@ m) `df2 <- df %>% pivot_wider(cols=c(indicator, category), names_from="Year", va
 
 
 {choose-answers: 4}
-? Suppose you have a tibble called `df` with columns `month`, `average_precipitation`, `state`.Which command would create a new tibble df2 with one column per state and one for the month called `month`, and one row for the average precipitation in each month and each state?
+? Suppose you have a tibble called `df` with columns `month`, `average_precipitation`, `state`.Which command would create a new tibble `df2` with one column per state and one for the month called `month`, and one row for the average precipitation in each month and each state?
 
 m) `df2 <- df %>% pivot_wider(names_from=average_precipitation, values from=state)`
 C) `df2 <- df %>% pivot_wider(names_from=state, values from=average_precipitation)`
@@ -73,7 +73,7 @@ m) It shows the union of the two data sets.
 
 m) renames the module `mymodule` to `Namespace`.
 m) erases all the functions previously loaded.
-C) unloads the module `mymodule` (the opposite of what library(mymodule) does).
+C) unloads the module `mymodule` (the opposite of what `library(mymodule)` does).
 m) restarts the R session.
 
 {choose-answers: 4}

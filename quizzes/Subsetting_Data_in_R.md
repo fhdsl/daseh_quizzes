@@ -34,10 +34,10 @@ m) `new_datadf <- datadf %>% colnames(Address = A, DoB = B)`
 
 {choose-answers: 4}
 ?  Which of the following column names use standard names?
-m) Number of particles / kg
-C) NumberOfParticlesPerKg
-m) Number_of_particles/kg
-m) Number of particles.kg
+m) `Number of particles / kg`
+C) `NumberOfParticlesPerKg`
+m) `Number_of_particles/kg`
+m) `Number of particles.kg`
 
 
 {choose-answers: 4}
@@ -152,7 +152,7 @@ C) `arrange(mydata, desc(CO2), year)`
 m) `select(mydata, desc(CO2), year)`
 
 
-? Which of the following statements that will create a new data frame called `mydata2` from a dataframe called `mydata` by doing: 1) subsetting all the columns but  `experiment`, 2) subseting all rows for which Year >= 2010, 3) adding a new column called `percent_recycled` that computes the percentage of tons of plastic recycled, assuming you have columns named `total_plastic` and `plastic_recycled` and 4) arranging the dataset by the column `percent_recycled`?
+? Which of the following statements that will create a new data frame called `mydata2` from a dataframe called `mydata` by doing: 1) subsetting all the columns but  `experiment`, 2) subsetting all rows for which Year >= 2010, 3) adding a new column called `percent_recycled` that computes the percentage of tons of plastic recycled, assuming you have columns named `total_plastic` and `plastic_recycled` and 4) arranging the dataset by the column `percent_recycled`?
 
 C) `mydata2 <- mydata %>% select(!experiment) %>% filter(Year >= 2010) %>% mutate(percent_recycled = 100*(plastic_recycled/total_plastic)) %>% arrange(percent_recycled)`
 m) `mydata2 <- mydata %>% select(!experiment) %>% filter(Year >= 2010) %>% arrange(percent_recycled) %>% mutate(percent_recycled = 100*(plastic_recycled/total_plastic))`

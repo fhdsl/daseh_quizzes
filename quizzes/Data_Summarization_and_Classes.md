@@ -1,6 +1,6 @@
-{quiz, id: Data Summarization and Classes, attempts: 10}
+{quiz, id: Data_Summarization and Classes, attempts: 10}
 
-## Data Summarization and Classes
+## Data_Summarization and Classes
 
 {choose-answers: 4}
 ? Assuming you have a dataframe called `mydata` with a column named `population`, which of the following statements would compute the total population?

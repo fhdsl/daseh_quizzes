@@ -77,8 +77,8 @@ m) `fit <- glm(number_asthma_episodes ~ age + CO2_emissions + number_of_allergen
 ? Which function was introduced in the course to compute odds ratios?
 m) `glm()`
 m) `glm(family="oddsratios")`
-C) `oddsratio()` from the epitools package
-m) `ER.oddsratio()` from the OR package.
+C) `oddsratio()` from the `epitools` package
+m) `ER.oddsratio()` from the `OR` package.
 
 
 {/quiz}

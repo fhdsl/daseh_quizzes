@@ -11,7 +11,7 @@ o) `is.infinite()`
 m) `miss_var_summary()`
 o) `gg_miss_var()`
 
-? Select all the statments describing potential issues when dealing with missing data:
+? Select all the statements describing potential issues when dealing with missing data:
 F) Operations in data frames are slower in the presence of `NAs`.
 T) Mathematical operations (e.g. sum, min, max) result in `NA` when an NA is present.
 T) Elemental arithmetic operations (e.g. computing percentages) will have different results depending on the inclusion or exclusion of `NAs`.
@@ -26,7 +26,7 @@ F) NAs in a data set are always random.
 m) `mydata <- mydata %>% mutate(is.na(Emissions), -1)`
 m) `mydata <- mydata %>% select(Emissions, drop_na(Emissions), -1))`
 m) `mydata <- mydata %>% mutate(case_when(Emissions == 'NA' ~ -1))`
-C)` mydata <- mydata %>% mutate(Emissions = replace_na(Emissions, -1))`
+C) `mydata <- mydata %>% mutate(Emissions = replace_na(Emissions, -1))`
 
 {choose-answers: 4}
 ? Assuming you have a dataframe called `mydata` , which of the following statements would replace all the rows having negative value in the column `Temperature` with NA?
@@ -47,7 +47,7 @@ m) `new_data <- mydata %>% mutate(!is.na)`
 
 
 {choose-answers: 4}
-? Assuming you have a dataframe called `mydata`, which of the following statements would recode the column `allergens` to `outdoor_allergens` if the values are `pollen`, `mold` or `dust_mites`; `indoor_allergens` if the values are `pet_dander`, `food`, `latex`; and `chemical` for everything else?
+? Assuming you have a dataframe called `mydata`, which of the following statements would re-code the column `allergens` to `outdoor_allergens` if the values are `pollen`, `mold` or `dust_mites`; `indoor_allergens` if the values are `pet_dander`, `food`, `latex`; and `chemical` for everything else?
 
 C) `mydata <- mydata %>% mutate(allergens = case_when(allergens %in% c("pollen", "mold", "dust_mites") ~ "outdoor_allergens",
 													 allergens %in% c("pet_dander", "food", "latex") ~ "indoor_allergens",
@@ -100,7 +100,7 @@ C) `mydata %>% unite(State, zipcode, col = "location")`
 m) `mydata %>% mutate(col1 = State, col2 = zipcode, intol="location")`
 
 
-? Assume you want to create a string named `myfilename` by combining the string `results` and today's date (given by the function today <- Sys.Date()) with no space in between. Which of the following statements would do that (select all the true statments)?
+? Assume you want to create a string named `myfilename` by combining the string `results` and today's date (given by the function `today <- Sys.Date()`) with no space in between. Which of the following statements would do that (select all the true statments)?
 
 T) `myfilename <- paste(results, Sys.Date(), sep="")`
 T) `myfilename <- paste0(results, Sys.Date())`

@@ -5,7 +5,7 @@
 Choose the best answer for the following questions.
 
 {choose-answers: 4}
-? Which of the following statements is the correct way to assign the number 10 to a variable called myvar?
+? Which of the following statements is the correct way to assign the number 10 to a variable called `myvar`?
 
 C) `myvar <- 10`
 m) `10 <- myvar`

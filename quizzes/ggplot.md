@@ -1,10 +1,10 @@
 {quiz, id: Esquisse / ggplot, attempts: 10}
 
-## ggplot
+## `ggplot`
 
 
 {choose-answers: 4}
-? What is the basic layer in any plot created using ggplot2?
+? What is the basic layer in any plot created using `ggplot2`?
 
 m) `geom_line()`
 m) `theme()`
